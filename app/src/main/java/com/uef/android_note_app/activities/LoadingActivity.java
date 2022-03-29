@@ -23,8 +23,8 @@ public class LoadingActivity extends AppCompatActivity {
                 startActivity(intent);
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
-                finish();
+                finish();//chayfile
             }
-        }, 3000);
+        }, 3000);//thoi gian cho
     }
 }
