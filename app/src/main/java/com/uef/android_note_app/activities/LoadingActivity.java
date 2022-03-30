@@ -20,7 +20,7 @@ public class LoadingActivity extends AppCompatActivity {
             @Override
             public void run() {
                 Intent intent = new Intent(getApplicationContext(), IntroActivity.class);
-                startActivity(intent);
+                startActivity(intent);//chuyền  du liwuj vao
                 overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
 
                 finish();//chayfile
